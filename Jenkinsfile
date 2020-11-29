@@ -6,7 +6,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url:'https://github.com/onlinetrainingguy/playjenkins.git', branch:'test-deploy-stage'
+        git url:'https://github.com/amit873/Jenkins-Docker-Kubernetes-Project2.git', branch:'main'
       }
     }
 
