@@ -6,7 +6,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url:'https://github.com/amit873/Jenkins-Docker-Kubernetes-Project2.git', branch:'main'
+        git url:'https://github.com/vishalspatil18/Jenkins-Docker-Kubernetes-Project2', branch:'main'
       }
     }
 
